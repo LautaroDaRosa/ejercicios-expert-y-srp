@@ -1,9 +1,6 @@
 ﻿using System;
 
 namespace SRP
-//No cumple con el principio SRP porque posee más de una responsabilidad, debe crear el objeto libro y también almacenarlo
-//mediante AlmacenarLibro, las variables no se encuentran encapsuladas, si cumple con el principio expert porque posee
-//la información que necesita para cumplir con sus responsabilidades
 {
     public class Libro
     {
