@@ -2,6 +2,9 @@
 using System.Text;
 
 namespace Library
+//Cumple con el principio Expert ya que posee la información que necesita para cumplir con sus responsabilidades
+//también cumple con el principio SRP porque la única responsabilidad que tiene es la de crear objetos de la clase 
+//AppointmentService
 {
     public class AppointmentService
     {
